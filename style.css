@@ -110,3 +110,28 @@ body {
   text-align: center;
   padding: 24px;
 }
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .site-header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .menu-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu-item {
+    width: 100%;
+    max-width: 320px;
+    flex-shrink: 1;
+  }
+}
